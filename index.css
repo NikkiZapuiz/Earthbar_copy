@@ -78,13 +78,16 @@ body {
     margin-left: 160px;
 }
 
-.product-carousel {
-    display: flex;
-    justify-content: center;
+.product__image {
+    width: 100%;
 }
 
-.earthbar-logo {
+.earthbar__logo--image {
     display: none;
+}
+
+.divider {
+    width: 50%;
 }
 
 
@@ -92,6 +95,7 @@ body {
     body {
         font-size: 16px; 
     }
+
 
     .promo-message {
         height: 8vh; 
@@ -114,15 +118,27 @@ body {
 
     .container {
         display: flex;
+        padding: 10px;
+        margin: 10px;
     }
 
-    .earthbar-logo {
-        display: block;
-        transform: rotate(90deg);
-        
+    .slogan {
+        width: 50%;
+    }
+
+    .text__slogan--1 {
+        font-size: 5vw;
+    }
+
+    .text__slogan--2 {
+        font-size: 2vw;
+    }
+
+    .product__image {
+        width: 45vw;
     }
 
     .earthbar__logo--image {
-        width: 20vw;
+        display: block;
     }
 }
