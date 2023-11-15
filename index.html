@@ -7,48 +7,57 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="index.css">  
+    <link rel="stylesheet" href="index.css">
     <title>Earthbar</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 
 <body>
-    <nav>
-        <div class="promo-message">
-            <p>
-                Our NEW Core Daily Pack vitamins are now available.
-                Foundational nutrition for less than $1 a day!
-            </p>
-        </div>
-        <div class="nav-container">
-            <div class="nav">
+    <div class="promo-message">
+        <p class="is-italic">
+            Our NEW Core Daily Pack vitamins are now available.
+            Foundational nutrition for less than $1 a day!
+        </p>
+    </div>
+    <nav class="navbar has-shadow is-white" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="">
                 <img class="company-logo" src="earthbar.png" alt="earthbar-logo">
-                <ul class="nav__item nav__item--1">
-                    <li>Shop</li>
-                    <li>About Us</li>
-                    <li>Careers</li>
-                </ul>
-            </div>
-            <div class="nav">
-                <ul class="nav__item nav__item--2">
-                    <li>Locations</li>
-                    <li>Order Ahead</li>
-                    <li><i class="fa-solid fa-bag-shopping" style="color: #0a0a0a;"></i></li>
-                </ul>
-            </div>
+            </a>
+            <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
         </div>
-        <hr>
+        <div class="navbar-menu" id="nav-links">
+            <ul class="navbar-start">
+                <li class="navbar-item"><a href="">Shop</a></li>
+                <li class="navbar-item"><a href="">About Us</a></li>
+                <li class="navbar-item"><a href="">Careers</a></li>
+            </ul>
+        </div>
+        <div class="navbar-menu" id="nav-links">
+            <ul class="navbar-end">
+                <li class="navbar-item"><a href="">Locations</a></li>
+                <li class="navbar-item"><a href="">Order Ahead</a></li>
+                <li class="navbar-item"><a href=""><i class="fa-solid fa-bag-shopping" style="color: #0a0a0a;"></i></a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <!-- Nav ends here -->
     <div class="container">
         <div class="slogan">
-            <img class="slogan__logo" src="e-logo.png" alt="">
+            <img class="slogan__logo title" src="e-logo.png" alt="">
             <h1 class="text__slogan--1">Be more than well.</h1>
             <p class="text__slogan--2">We're your home for hollistic wellbeing. known for nourishing the most
                 health-obsessed
                 people on the planet.
             </p>
-            <button class="slogan__button">Shop all products <span class="slogan__button--arrow"><i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></span></button>
+            <button class="slogan__button">Shop all products <span class="slogan__button--arrow"><i
+                        class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></span></button>
         </div>
         <div class="product">
             <img class="product__image"
@@ -57,6 +66,7 @@
         </div>
         <img class="earthbar__logo--image" src="side logo.png" alt="earthbar-logo">
     </div>
+    <script src="index.js"></script>
 </body>
 
 </html>

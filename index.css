@@ -4,49 +4,22 @@ body {
 }
 
 .promo-message {
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    height: 2vh;
-    font-size: 7px;
-    padding: 2px;
-}
-
-
-.nav-container {
-    display: flex;
-    justify-content: space-around;
+    display: none;
 }
 
 .company-logo {
-    width: 12vw;
-    height: 2vh;
+    width: 30vw;
+    height: 4vh;
     margin-top: 5px;
 }
 
-.nav {
-    display: flex;
-}
-
-.nav__item {
-    display: flex;
-    justify-content: space-around;
-    align-items: end;
-    list-style: none;
+.navbar-burger {
+    border-radius: 5px;
 }
 
 .slogan__logo {
     display: none;
 }
-
-.nav__item--1,
-.nav__item--2 {
-    width: 22vw;
-    font-size: 7px;
-}
-
-/* Nav ends here */
 
 .slogan {
     margin: 25px;
@@ -85,29 +58,34 @@ body {
     display: none;
 }
 
-
+/* Large Screens */
 
 @media (min-width: 600px) {
     body {
-        font-size: 16px; 
+        font-size: 16px;
     }
 
-
     .promo-message {
-        height: 5vh; 
-        font-size: 15px; 
+        height: 5vh;
+        font-size: 15px;
+        display: block;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        display: flex;
+        padding: 2px;
     }
 
     .company-logo {
-        width: 16vw; 
-        height: 6vh; 
+        width: 16vw;
+        height: 6vh;
         margin-top: 15px;
     }
 
     .nav__item--1,
     .nav__item--2 {
-        width: 20vw; 
-        font-size: 20px; 
+        width: 20vw;
+        font-size: 20px;
     }
 
     /* Nav ends here */
