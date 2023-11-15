@@ -43,7 +43,7 @@ body {
 .nav__item--1,
 .nav__item--2 {
     width: 22vw;
-    font-size: 5px;
+    font-size: 7px;
 }
 
 /* Nav ends here */
@@ -66,8 +66,10 @@ body {
     border-radius: 20px;
     background-color: black;
     color: white;
-    height: 7vh;
+    height: 3vh;
     padding: 15px;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -131,12 +133,6 @@ body {
     .text__slogan--2 {
         font-size: 2vw;
         margin-bottom: 10px;
-    }
-
-    .slogan__button,
-    .slogan__button--arrow {
-        display: flex;
-        align-items: center;
     }
 
     .product__image {
