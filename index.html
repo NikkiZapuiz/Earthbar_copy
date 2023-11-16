@@ -14,33 +14,33 @@
 
 <body>
     <div class="promo-message">
-        <p class="is-italic">
+        <p class="promo-message__paragraph--italic is-italic">
             Our NEW Core Daily Pack vitamins are now available.
             Foundational nutrition for less than $1 a day!
         </p>
     </div>
     <nav class="navbar has-shadow is-white" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="">
-                <img class="company-logo" src="earthbar.png" alt="earthbar-logo">
+        <div class="navbar__container navbar-brand">
+            <a class="navbar__item navbar-item" href="">
+                <img class="navbar__image" src="earthbar.png" alt="earthbar-logo">
             </a>
-            <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false"
+            <a role="button" class="navbar-burger navbar__button--burger" id="burger" aria-label="menu" aria-expanded="false"
                 data-target="navbarBasicExample">
                 <span></span>
                 <span></span>
                 <span></span>
             </a>
         </div>
-        <div class="navbar-menu" id="nav-links">
-            <ul class="navbar-start">
-                <li class="navbar-item"><a href="">Shop</a></li>
-                <li class="navbar-item"><a href="">About Us</a></li>
-                <li class="navbar-item"><a href="">Careers</a></li>
+        <div class="navbar__menu navbar-menu" id="nav-links">
+            <ul class="navbar__list navbar-start">
+                <li class="navbar__item navbar-item"><a class="navbar__item--dark" href="">Shop</a></li>
+                <li class="navbar-item"><a class="navbar__item--dark" href="">About Us</a></li>
+                <li class="navbar-item"><a class="navbar__item--dark" href="">Careers</a></li>
             </ul>
-            <ul class="navbar-end">
-                <li class="navbar-item"><a href="">Locations</a></li>
-                <li class="navbar-item"><a href="">Order Ahead</a></li>
-                <li class="navbar-item"><a href=""><i class="fa-solid fa-bag-shopping" style="color: #0a0a0a;"></i></a>
+            <ul class="navbar__list navbar-end">
+                <li class="navbar__item navbar-item"><a class="navbar__item--dark" href="">Locations</a></li>
+                <li class="navbar__item navbar-item"><a class="navbar__item--dark" href="">Order Ahead</a></li>
+                <li class=" navbar__item navbar-item"><a href=""><i class="fa-solid fa-bag-shopping" style="color: #0a0a0a;"></i></a>
                 </li>
             </ul>
         </div>    
@@ -48,21 +48,24 @@
     <!-- Nav ends here -->
     <div class="container">
         <div class="slogan">
-            <img class="slogan__logo title" src="e-logo.png" alt="">
-            <h1 class="text__slogan--1">Be more than well.</h1>
-            <p class="text__slogan--2">We're your home for hollistic wellbeing. known for nourishing the most
+            <img class="slogan__logo" src="e-logo.png" alt="earthbar__e-logo">
+            <h1 class="slogan__heading">Be more than well.</h1>
+            <p class="slogan__paragraph">We're your home for hollistic wellbeing. known for nourishing the most
                 health-obsessed
                 people on the planet.
             </p>
-            <button class="slogan__button">Shop all products <span class="slogan__button--arrow"><i
-                        class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></span></button>
+            <button class="slogan__button">Shop all products 
+                <span class="slogan__button--arrow">
+                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                </span>
+            </button>
         </div>
         <div class="product">
             <img class="product__image"
                 src="https://earthbar.com/cdn/shop/files/q3-2023smoothies_08a235e1-a7f6-451b-921d-08a754588371_715x.jpg?v=1689832287"
                 alt="poduct-image">
         </div>
-        <img class="earthbar__logo--image" src="side logo.png" alt="earthbar-logo">
+        <img class="earthbar__image" src="side logo.png" alt="earthbar-logo">
     </div>
     <script src="index.js"></script>
 </body>

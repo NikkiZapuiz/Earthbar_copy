@@ -7,15 +7,21 @@ body {
     display: none;
 }
 
-.company-logo {
+.navbar__image {
     width: 30vw;
     height: 4vh;
     margin-top: 5px;
 }
 
-.navbar-burger {
+.navbar__button--burger {
     border-radius: 5px;
 }
+
+.navbar__item--dark {
+    color: black;
+}
+
+/* navbar ends here */
 
 .slogan__logo {
     display: none;
@@ -25,12 +31,12 @@ body {
     margin: 25px;
 }
 
-.text__slogan--1 {
+.slogan__heading {
     font-weight: 600px;
     font-size: 50px;
 }
 
-.text__slogan--2 {
+.slogan__paragraph {
     font-size: 17px;
     margin-bottom: 15px;
 }
@@ -54,17 +60,14 @@ body {
     width: 100%;
 }
 
-.earthbar__logo--image {
+.earthbar__image {
     display: none;
 }
 
 /* Large Screens */
 
 @media (min-width: 600px) {
-    body {
-        font-size: 16px;
-    }
-
+    
     .promo-message {
         height: 5vh;
         font-size: 15px;
@@ -76,16 +79,14 @@ body {
         padding: 2px;
     }
 
-    .company-logo {
+    .navbar__image {
         width: 16vw;
-        height: 6vh;
+        height: 35px;
         margin-top: 15px;
     }
 
-    .nav__item--1,
-    .nav__item--2 {
-        width: 20vw;
-        font-size: 20px;
+    .navbar__item--dark {
+        color: black;
     }
 
     /* Nav ends here */
@@ -104,11 +105,11 @@ body {
         display: block;
     }
 
-    .text__slogan--1 {
+    .slogan__heading {
         font-size: 5vw;
     }
 
-    .text__slogan--2 {
+    .slogan__paragraph {
         font-size: 2vw;
         margin-bottom: 10px;
     }
@@ -117,7 +118,7 @@ body {
         width: 45vw;
     }
 
-    .earthbar__logo--image {
+    .earthbar__image {
         display: block;
     }
 }
