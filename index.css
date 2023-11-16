@@ -7,21 +7,30 @@ body {
     display: none;
 }
 
+
+.navbar {
+    border-bottom: 1px solid gray !important;
+}
+
+
+
 .navbar__image {
     width: 30vw;
     height: 4vh;
     margin-top: 5px;
 }
 
-.navbar__button--burger {
+.navbar__button-burger {
     border-radius: 5px;
 }
 
-.navbar__item--dark {
+.navbar__link {
     color: black;
 }
 
 /* navbar ends here */
+
+/* first section */
 
 .slogan__logo {
     display: none;
@@ -31,9 +40,11 @@ body {
     margin: 25px;
 }
 
+.slogan__heading--larger,
 .slogan__heading {
     font-weight: 600px;
     font-size: 50px;
+    margin-bottom: 10px;
 }
 
 .slogan__paragraph {
@@ -49,10 +60,9 @@ body {
     padding: 15px;
     display: flex;
     align-items: center;
-
 }
 
-.slogan__button--arrow {
+.slogan__button-arrow {
     margin-left: 160px;
 }
 
@@ -64,6 +74,21 @@ body {
     display: none;
 }
 
+.divider {
+    border: 1px solid black;
+    margin: 5%;
+}
+
+/* second section */
+
+.slogan__container {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+
+
 /* Large Screens */
 
 @media (min-width: 600px) {
@@ -71,7 +96,6 @@ body {
     .promo-message {
         height: 5vh;
         font-size: 15px;
-        display: block;
         justify-content: center;
         background-color: black;
         color: white;
@@ -80,20 +104,19 @@ body {
     }
 
     .navbar__image {
-        width: 16vw;
-        height: 35px;
-        margin-top: 15px;
+        width: 10vw;
     }
 
-    .navbar__item--dark {
+    .navbar__link {
         color: black;
     }
 
     /* Nav ends here */
 
+    /* first section */
+
     .container {
         display: flex;
-        padding: 10px;
         margin: 10px;
     }
 
@@ -101,24 +124,37 @@ body {
         width: 50%;
     }
 
-    .slogan__logo {
-        display: block;
-    }
-
-    .slogan__heading {
+    .slogan__heading--larger {
         font-size: 5vw;
     }
 
     .slogan__paragraph {
         font-size: 2vw;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 
     .product__image {
         width: 45vw;
     }
 
-    .earthbar__image {
-        display: block;
+    /* second section */
+
+    .slogan__container {
+        display: flex;
+        flex-direction: row;
     }
+
+    .slogan__heading {
+        font-size: 50px;
+        flex-basis: 100%;
+    }
+
+    .slogan__paragraph {
+        flex-basis: 100%;
+        font-size: 20px;
+    }
+
+
+
+
 }
